@@ -1,0 +1,1 @@
+export const selectAllList = state => state.list

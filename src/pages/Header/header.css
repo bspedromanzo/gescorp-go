@@ -1,0 +1,36 @@
+.headerContainer {
+    height: 55px;
+    background-color: black;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.headerButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.headerButton {
+    text-decoration: none;
+    color: white
+}
+
+.headerPhoto{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+}
+
+.headerPhoto p {
+    font-weight: bold;
+}
